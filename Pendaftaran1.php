@@ -65,7 +65,7 @@
                     <div class="row mb-3">
                         <label class="col-sm-4 col-form-label">Nama</label>
                         <div class="col-sm-8">
-                        <input type="text" class="form-control" id="nama_pemesan" name="nama_pemesan">
+                        <input type="text" class="form-control" id="nama_pemesanan" name="nama_pemesanan">
                         </div>
                     </div>
                     <div class="row mb-3">
