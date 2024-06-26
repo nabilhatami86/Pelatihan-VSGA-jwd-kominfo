@@ -41,11 +41,11 @@
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="#"
+                                href="/Latihan1.html"
                                 style="color: rgb(0, 0, 0) !important;">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: rgb(0, 0, 0) !important;">Pendaftaran </a>
+                            <a class="nav-link" href="#" style="color: rgb(0, 0, 0) !important;">Pendaftaran Paket Wisata </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color: rgb(0, 0, 0) !important;">Daftar Kosan</a>
@@ -61,7 +61,7 @@
             </h1>
             <div class="row">
                 <div class="col">
-                    <form>
+                    <form class="p4" method= "POST" action="db.php">
                     <div class="row mb-3">
                         <label class="col-sm-4 col-form-label">Nama</label>
                         <div class="col-sm-8">
@@ -178,7 +178,7 @@
 		$(document).ready(function() {
             $('#cek_tagihan').click(function(){ 
                 //menghitung harga paket
-                hargaPaket=0;
+                var hargaPaket=0;
                 if (document.getElementById("penginapan").checked) hargaPaket += 1000000;
                 if (document.getElementById("transportasi").checked) hargaPaket += 1200000;
                 if (document.getElementById("makanan").checked) hargaPaket += 500000;
